@@ -1,0 +1,30 @@
+.page-wrapper {
+  margin-bottom: 100px;
+}
+.shop {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.till {
+  max-width: 75%;
+  margin: auto;
+}
+
+.card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: $b-radius;
+  border: 1px solid $grey;
+
+  h2 {
+    color: $text;
+  }
+}

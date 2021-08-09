@@ -1,0 +1,17 @@
+.availible {
+  padding: 1rem;
+  // border: solid $grey 1px;
+  text-align: center;
+  border-radius: $b-radius;
+  width: 100%;
+
+  &--out {
+    @extend .availible;
+    color: #999;
+  }
+
+  &--in {
+    @extend .availible;
+    color: $text;
+  }
+}

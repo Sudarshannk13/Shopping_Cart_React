@@ -1,0 +1,40 @@
+.btn_container {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  border-radius: $b-radius;
+  border: solid white 2px;
+  color: $text;
+  text-align: center;
+  cursor: pointer;
+  &:disabled {
+    background-color: $grey;
+  }
+  &:hover {
+    border: 2px solid $text;
+  }
+}
+
+.btn-paynow {
+  border-radius: $b-radius;
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 2rem;
+  width: 150px;
+  padding: 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background: $yellow;
+  background: linear-gradient(45deg, $yellow 0%, $red 45%);
+  &:hover {
+    text-decoration: underline;
+  }
+  &[disabled] {
+    background: $grey;
+  }
+}

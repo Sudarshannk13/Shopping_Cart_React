@@ -1,0 +1,13 @@
+.btn-add-to-cart {
+  padding: 0.8rem;
+  background-color: $green;
+  &:hover {
+    border: solid $aqua 2px;
+  }
+  &:disabled {
+    background-color: $grey;
+    &:hover {
+      border: 2px solid white;
+    }
+  }
+}

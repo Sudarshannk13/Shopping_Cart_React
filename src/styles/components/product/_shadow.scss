@@ -1,0 +1,19 @@
+$left: 1px;
+$down: 2px;
+$blur: 2px;
+
+.shadow--0 {
+  box-shadow: $left $down $blur $green;
+}
+.shadow--1 {
+  box-shadow: $left $down $blur $yellow;
+}
+.shadow--2 {
+  box-shadow: $left $down $blur $aqua;
+}
+.shadow--3 {
+  box-shadow: $left $down $blur $red;
+}
+.shadow--4 {
+  box-shadow: $left $down $blur $blue;
+}

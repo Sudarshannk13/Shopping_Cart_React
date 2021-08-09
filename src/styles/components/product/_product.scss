@@ -1,0 +1,27 @@
+@import "./buttons/addtocart";
+@import "./buttons/quantity";
+@import "./offer";
+@import "availible";
+@import "shadow";
+
+.product {
+  @extend .card;
+  max-width: 275px;
+  h2 {
+    text-transform: capitalize;
+    padding: 0.5rem;
+    border-radius: $b-radius;
+  }
+
+  margin: 1rem;
+
+  .price {
+    font-size: 1.2;
+  }
+  .img {
+    border: 1px solid $grey;
+    border-radius: $b-radius;
+    width: 100%;
+    object-fit: scale-down;
+  }
+}
